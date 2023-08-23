@@ -1,0 +1,27 @@
+@media (max-width: 570px){
+    .header{
+        flex-direction: column
+    }
+
+    .logo{
+        height: 50%;
+    }
+
+    .bnt-agendar{
+        margin: 50px;
+        padding: 15px;
+        font-size: 15px;
+    }
+
+    .titulo{
+        font-size: 25px;
+    }
+
+    .galeria{
+        flex-direction: column;
+    }
+
+    .rodape{
+        flex-direction: column;
+    }
+}

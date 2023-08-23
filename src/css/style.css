@@ -1,0 +1,126 @@
+body{
+    background-color: #17b5af;
+    font-family: 'Playfair Display', serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    height: 95vh;
+    background: url('../images/DSC_1847.jpg') center top no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    margin-top: 50px;
+    max-width: 80%;
+    max-height: 80%;
+    min-height: 139px;
+    min-width: 212px;
+}
+
+.bnt-agendar{
+    align-self: flex-end;
+    align-items: center;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #17b5af;
+    border: none;
+    margin: 80px;
+    font-size: 20px;
+}
+
+.bnt-agendar a{
+    height: 27px;
+    width: 167px;
+    white-space: nowrap;
+}
+
+.bnt-agendar:hover{
+    background-color: #fb920b;
+    transition: all 0.3s ease;
+    cursor:pointer;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.galeria{
+    display:flex;
+    justify-content: center;
+}
+
+.fotos{
+    padding: 15px;
+}
+
+.fotos img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.bnt-ver-mais{
+    display: flex;
+    justify-content: center;
+    border: none;
+    margin: 20px;
+}
+
+.bnt-ver-mais button{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fb920b;
+    border: none;   
+    margin-bottom: 50px;
+    font-size: 25px;
+    
+}
+
+.bnt-ver-mais button:hover{
+    cursor:pointer;
+    opacity: 0.8;
+}
+
+.rodape{
+    background-color: #9f9f97 ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;
+}
+
+.rodape .informacoes{
+    align-self: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.rodape .descricao{
+    text-align: center;
+    max-width: 220px;
+    max-height: 84px;
+}
+ 
+.fa-instagram{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.fa-instagram:hover{
+    color:#fb920b;
+}
+
+.fa-whatsapp{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.fa-whatsapp:hover{
+    color:#fb920b;
+}
